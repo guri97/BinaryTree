@@ -22,6 +22,10 @@
             BinaryTree.AddNode(95);
             BinaryTree.AddNode(65);
             BinaryTree.AddNode(3);
+            //UC2:create the bst as shown and find the size of tree
+
+            int Size = BinaryTree.GetSize();
+            Console.WriteLine(Size);
 
 
         }

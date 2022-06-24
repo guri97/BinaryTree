@@ -41,6 +41,17 @@ namespace Day19_BinaryTree
             return Current;
 
         }
+        public int GetSize()
+        {
+            return this.getSizeRecursively(Root);
+        }
+
+        private int getSizeRecursively(BinarySearchTreeNode<K> Current)
+        {
+
+            return Current == null ? 0 : 1 + this.getSizeRecursively(Current.Left)
+                                           + this.getSizeRecursively(Current.Right);
+        }
 
     }
 }
