@@ -26,6 +26,13 @@
 
             int Size = BinaryTree.GetSize();
             Console.WriteLine(Size);
+            //uc3:Ability to search the given node
+            bool result = BinaryTree.SearchKey(63);
+            Console.WriteLine(result);
+            //output
+            //Welcome To Binary Search Tree Problem
+            //13
+            //True
 
 
         }
